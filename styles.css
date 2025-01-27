@@ -18,7 +18,7 @@ header {
     color: #00ff99; /* Neon green */
     text-align: center;
     padding: 30px;
-    box-shadow: 0 0 20px rgba(0, 255, 153, 0.7);
+    box-shadow: 4px 4px 0 #000; /* Shadow on bottom and right */
     margin-bottom: 30px;
 }
 
@@ -39,13 +39,14 @@ header h1 {
     background: #222;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
     width: 30%;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    /* No default box-shadow, only on hover */
 }
 
 .column:hover {
-    transform: scale(1.05);
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 0 #000; /* Shadow on bottom and right when hovering */
 }
 
 /* Heading Styling */
@@ -54,7 +55,7 @@ h2 {
     color: #ff00ff; /* Neon pink */
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-shadow: 0 0 10px rgba(255, 0, 255, 0.7);
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 1); /* Text shadow */
 }
 
 /* Image Styling */
@@ -62,7 +63,7 @@ img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(255, 0, 255, 0.8);
+    box-shadow: 4px 4px 0 #000; /* Shadow on bottom and right */
 }
 
 /* Button Styling */
@@ -76,7 +77,7 @@ img {
     letter-spacing: 2px;
     border: none;
     border-radius: 5px;
-    box-shadow: 0 4px 20px rgba(0, 255, 153, 0.6);
+    box-shadow: 4px 4px 0 #000; /* Shadow on bottom and right */
     cursor: pointer;
     transition: all 0.3s ease;
     margin-top: 15px;
@@ -85,7 +86,7 @@ img {
 .cta-btn:hover {
     background-color: #ff00ff;
     color: #fff;
-    box-shadow: 0 4px 30px rgba(255, 0, 255, 0.8);
+    box-shadow: 4px 4px 0 #000; /* Retain solid shadow */
     transform: translateY(-3px);
 }
 
@@ -96,7 +97,7 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 40px;
-    box-shadow: 0 0 10px rgba(255, 0, 255, 0.3);
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 1); /* Shadow on bottom and right */
 }
 
 /* Links */
