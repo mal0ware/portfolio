@@ -11,7 +11,7 @@ You can visit the live site here: [https://mal0ware.github.io/portfolio/](https:
 
 ## Contact
 Feel free to reach out:
-- **Email**: [mariuscastillo0512@gmail.com](mailto:mariuscastillo0512@gmail.com)
+- **Email**: [mal0ss.network@gmail.com](mailto:mal0ss.network@gmail.com)
 - **LinkedIn**: [mal0ware](https://www.linkedin.com/in/mal0ware/)
 - **X**: [not_mal0](https://x.com/not_mal0)
 
